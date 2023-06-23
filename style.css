@@ -1,0 +1,48 @@
+body{
+    font-family:sans-serif;
+    width:50%;
+    max-width:800px;
+    min-width:480px;
+    margin:0 auto;
+    background-color: darkslategray;
+}
+.lastResult{
+    color:white;
+    padding:3px;
+}
+h1{
+    color:rgb(179, 255, 0);
+    font-size: 2em;
+}
+p{
+    font-size: 1.3em;
+    color:bisque;
+
+}
+label{
+    font-size: 1.2em;
+    color:rgb(135, 222, 218)
+}
+.guessSubmit{
+    background-color: brown;
+    font-size:1.1em;
+    
+}
+.guessField{
+    font-size: 1em;
+}
+.lastResult{
+    
+    font-size: 2em;
+    animation-play-state: running;
+}
+.lowOrHi{
+    font-size:2em
+}
+strong{
+    font-size: 1.3em;
+    color:bisque;
+    width :120px;
+    height:100px;
+    background-color: rgb(25, 0, 139);
+}

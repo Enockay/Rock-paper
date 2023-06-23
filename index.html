@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="style.css">
+        <title>GuessGame</title>
+    </head>
+    <body>
+        <h1>Number Guessing game!</h1>
+        <p>We have selected a random number between 1 and 100 see if you can get it </p>
+         <p>I hope you gonna have some fun!</p>
+         <strong> You are only Given 10  trial try your luck </strong>
+         <br>
+
+         <!--The user Interface-->
+         <!--This toggle include the form-->
+         
+        <div class="form"><br> <br>
+            <label for ="guessField">Enter  a guess:</label>
+            <input type="text" id="guessfield" class="guessField">
+            <input type="submit" value="submit" class="guessSubmit">
+        </div>
+
+        <!--The result toggle  will displayed once the User plays the Game-->
+        <div class="resultParas">
+            <p class="Guesses"></p>
+            <p class="lastResult"></p>
+            <p class="lowOrHi"></p>
+        </div>
+<script src=correction.js></script>
+    </body>
+</html>
